@@ -1,0 +1,14 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* esto hace que los divs se vayan para abajo cuando la pagina es muy chica */
+
+#container > div {
+    background-color: springgreen;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+}

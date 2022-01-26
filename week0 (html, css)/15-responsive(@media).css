@@ -1,0 +1,13 @@
+@media (min-width: 600px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* esto yo lo entendi como iun if, en el video literalmente lo dicen asi */
+
+@media (max-width: 599px) {
+    body{
+        background-color: blue;
+    }
+}
