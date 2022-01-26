@@ -1,0 +1,22 @@
+ul {
+  font-size: 14px;
+  color: red;
+}
+
+ol {
+  font-size: 18px;
+  color: red;
+}
+
+p {
+  font-family: arial;
+  font-size: 20px;
+}
+
+/* sass nombredelarchivo.scss:nombredelarchivo.css
+   sass --watch nombredelarchivo.scss:nombredelarchivo.css
+
+   el primero sirve para compilar el archivo,
+   el segundo sirve para hacer modificaciones y no tener que compilar cada vez */
+
+/*# sourceMappingURL=18-variables.css.map */
