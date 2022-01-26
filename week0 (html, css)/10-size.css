@@ -1,0 +1,7 @@
+div {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    padding: 20px;      /*adentro de la caja*/
+    margin: 20px;       /*afuera de la caja*/
+}

@@ -1,0 +1,3 @@
+ul > li{                            /* es como decir que los ul que estan dentro de li */
+    color: blue;
+}

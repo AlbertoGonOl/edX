@@ -1,0 +1,6 @@
+div {
+    border: 3px solid greenyellow;
+    font-family: Arial, sans-serif;     /*la segunda fuente (font) es en caso que el browser no acepte la primera*/
+    font-size: 28px;
+    font-weight: bold;
+}
