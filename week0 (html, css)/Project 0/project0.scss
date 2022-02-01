@@ -1,0 +1,131 @@
+body {
+    background-color: #202124;
+    margin: 0;
+}
+
+header {
+    position: relative;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: flex-end;
+
+    div {
+        padding: 20px;
+    }
+}
+
+a {
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.underGoogle, .google {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.underGoogle {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.search {
+    /* background-color: #202124; */
+    display: flex;
+    border: 1px solid rgb(128, 128, 128, 0.5);
+    margin-top: 5%;
+    border-radius: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    input[type="text"] {
+        background-color: transparent;
+        color: white;
+        border: none;
+        width: 400px;
+        height: 33px;
+        outline: none;
+    }
+}
+
+.search:hover {
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+#boton[type="submit"] {
+    background-color: #303134;
+    color: white;
+    border: none;
+    width: 30%;
+    height: 30%;
+    border-radius: 5px;
+    margin-top: 7%;
+    margin-left: 20%;
+}
+
+#boton[type="submit"]:hover {
+    border: 1px solid rgb(128, 128, 128, 0.75);
+}
+
+#botonAS {
+    background-color: #AECBFA;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+}
+
+#botonAS:hover {
+    border: 1px solid blue;
+}
+
+.google {
+    margin-top: 10%;
+    width: 100%;
+    align-items: flex-end;
+}
+
+#search {
+    padding: 10px;
+    margin: 10px;
+}
+
+span {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+legend {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#as {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    padding: 10px;
+
+    input {
+        margin: 5px;
+    }
+}
