@@ -1,0 +1,12 @@
+git clone <url>			            //sirve para descargar el repo en nuestra compu localmente (una copia)
+git status			                //que esta pasando en el repo
+git add <filename>		            //agregar el archivo especifico modificado o nuevo a GitHub
+git add .			                //agregar todos los archivos modificados o nuevos al repo de GitHub
+git commit -m "mensaje"		        //darle un mensaje a todos los archivos agregados previamente antes de ser subidos a GitHub
+git commit -am "mensaje"	        //hacer un add de todos los archivos + el commit
+git push			                //subir los archivos que tienen commit a GitHub
+git pull			                //descargar lo mas reciente de GitHub a nuestra PC
+
+git log                             //para saber todos los cambios que se han hecho a lo largo del repo
+git reset --hard <commitHash>       //para regresar a una version en especifico (necesitamos el Hash -el numero que se genera al hacer commit-)
+git reset --hard origin/master      //si ya hicimos muchos cambios y queremos regresar a lo que hay en GitHub

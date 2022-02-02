@@ -1,0 +1,4 @@
+git branch                          //es como git status visto previamente pero para conocer las branches o ramas de nuestro proyecto
+git checkout -b <branchName>        //crear una nueva branch o rama en nuestro proyecto
+git checkout <branchName>           //para cambiar entre branches o ramas una vez creadas
+git merge <branchName>              //tenemos que estar en la rama "master" para tarer los nuevos cambios a la principal (casi siempre hay merge conflict)
