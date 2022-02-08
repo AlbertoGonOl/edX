@@ -1,9 +1,17 @@
 body {
-    margin: none;
-    border: none;
+    margin: 0px;
     background: rgb(221,230,255);
     background: linear-gradient(90deg, rgba(221,230,255,1) 0%, rgba(223,181,156,1) 50%, rgba(231,141,210,1) 100%);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: #3b2d608c;
+    border-bottom: 1px solid black;
+    align-items: center;
+    justify-content: center;
 }
 
 nav {
@@ -15,6 +23,7 @@ nav {
     display: flex;
     flex-direction: column;
     margin-right: 5%;
+    margin-left: 2%;
 
     a {
         color: white;
@@ -27,6 +36,7 @@ nav {
 }
 
 #main {
+    margin-top: 2%;
     display: flex;
 }
 
@@ -38,6 +48,7 @@ nav {
 }
 
 .mid {
+    margin-right: 10%;
     margin-left: 5%;
     border: 1px solid black;
     border-radius: 5px;
@@ -46,6 +57,6 @@ nav {
     flex-direction: column;
 }
 
-h1, h3, h4 {
+h1, h2, h4 {
     color: black;
 }
